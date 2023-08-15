@@ -86,6 +86,7 @@ button {
     padding: 5px 12px;
     box-shadow: 3px 3px black;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .head h3 {
