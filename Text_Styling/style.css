@@ -1,0 +1,27 @@
+* {
+    font-family: cursive;
+    padding: 5px;
+    margin: 5px;
+}
+h1 {
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+}
+span {
+    color: cyan;
+}
+h2 {
+    color: white;
+    text-align: center;
+    background-color: rebeccapurple;
+    font-style: italic;
+}
+h3 {
+    color: black;
+    background-color: lightskyblue;
+    font-style:inherit;
+    text-align: right;
+    text-decoration: underline;
+    padding-right: 20px;
+}

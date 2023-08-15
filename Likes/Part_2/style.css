@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+/* NAV BAR */
+
+.nav {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin: 0 25%;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 15px;
+    margin: 0 25%;
+}
+
+/* MAIN PAGE */
+
+.container {
+    display: flex;
+    margin: 0 25%;
+    justify-content: space-between;
+}
+
+/* PROFILE BLOCK */
+
+.left {
+    border: 4px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    margin: 30px 50px;
+}
+
+.avatar {
+    font-size: x-large;
+    margin: 30px 45px;
+}
+
+.left p {
+    margin: 50px 40px;
+    font-size: xx-large;
+}
+
+/* CONNECTIONS BLOCK */
+
+#right {
+    display: flex;
+    align-items: center;
+}
+
+.block {
+    border: 4px solid black;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: rgb(255,217,102);
+    border: 3px solid black;
+    padding: 5px 12px;
+    box-shadow: 3px 3px black;
+    margin-left: 30px;
+}
+
+.head h3 {
+    font-weight: bold;
+    font-size:x-large;
+}

@@ -1,0 +1,28 @@
+
+.button0 {
+    color: rgb(68, 217, 190);
+    border: 2px solid rgb(68, 217, 190);
+    border-radius: 25px;
+    padding: 5px 40px;
+    font-weight: bold;
+}
+
+.button1 {
+    color: white;
+    background-color: rgb(68, 217, 190);
+    font-size: 15px;
+    border-radius: 50%;
+    border: 0px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.button2 {
+    color: white;
+    background-color: dodgerblue;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    padding: 10px 40px;
+    
+}
