@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAV BAR -->
+    <header class="flex justify-cont-spb align-center blue-bg">
+        <h1>DojoWeather</h1>
+        <ul class="flex justify-cont-spb align-center">
+            <li class="cursor" onclick="alert('Loading weather report...')">Burbank</li>
+            <li class="cursor" onclick="alert('Loading weather report...')">Chicago</li>
+            <li class="cursor" onclick="alert('Loading weather report...')">Dallas</li>
+        </ul>
+    </header>
+
+    <!-- MAIN PAGE -->
+
+    <div class="margin-sides">
+
+        <!-- MIDDLE BAR -->
+        <div class="location flex justify-cont-spb align-center">
+            <h2>San Jose</h2>
+            <div class="right-header flex justify-cont-spb align-center gap">
+                <p>show temperature in</p>
+                <select name="temperature" onchange="fahrenheit('#fahrenheit')">
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- FORECAST -->
+        <div class="forecast flex ">
+            <div class="today gray-bg flex flex-column align-center justify-cont-spb margin-right">
+                <h3>Today</h3>
+                <img class="img-size" src="assets/some_rain.png" alt="rain-pic">
+                <p>some rain</p>
+                <ul class="temp bold flex justify-cont-spb align-center">
+                    <li id="fahrenheit" class="red">24</li>
+                    <li id="fahrenheit" class="blue">18</li>
+                </ul>
+            </div>
+            <div class="tomorrow gray-bg flex flex-column align-center justify-cont-spb margin-right">
+                <h3>Tomorrow</h3>
+                <img class="img-size" src="assets/some_sun.png" alt="sun-pic">
+                <p>some sun</p>
+                <ul class="temp bold flex justify-cont-spb align-center">
+                    <li id="id3" class="red">27</li>
+                    <li id="id4" class="blue">19</li>
+                </ul>
+            </div>
+            <div class="friday gray-bg flex flex-column align-center justify-cont-spb margin-right">
+                <h3>Friday</h3>
+                <img class="img-size" src="assets/some_clouds.png" alt="clouds-pic">
+                <p>some clouds</p>
+                <ul class="temp bold flex justify-cont-spb align-center">
+                    <li  id="id5" class="red">21</li>
+                    <li id="id6" class="blue">16</li>
+                </ul>
+            </div>
+            <div class="saturday gray-bg flex flex-column align-center justify-cont-spb">
+                <h3>Saturday</h3>
+                <img class="img-size" src="assets/some_sun.png" alt="sun-pic">
+                <p>some rain</p>
+                <ul class="temp bold flex justify-cont-spb align-center">
+                    <li id="id7" class="red">26</li>
+                    <li id="id8" class="blue">21</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- COOKIE BAR -->
+        <div id="cookie" class="flex align-center gray-bg">
+            <img class="img margin-right" src="assets/cookie.png" alt="cookie-pic">
+            <div class="flex flex-column justify-cont-spb">
+                <h3 class="bold">Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads,  
+                to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button class="margin-left margin-right blue-bg cursor" onclick="removeCookie('#cookie')">I Accept</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
