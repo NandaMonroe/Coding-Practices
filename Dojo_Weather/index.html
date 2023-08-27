@@ -26,9 +26,9 @@
             <h2>San Jose</h2>
             <div class="right-header flex justify-cont-spb align-center gap">
                 <p>show temperature in</p>
-                <select name="temperature" onchange="fahrenheit('#fahrenheit')">
-                    <option value="C">°C</option>
-                    <option value="F">°F</option>
+                <select name="temperature" onchange="convert(this)">
+                    <option>°C</option>
+                    <option>°F</option>
                 </select>
             </div>
         </div>
@@ -40,8 +40,8 @@
                 <img class="img-size" src="assets/some_rain.png" alt="rain-pic">
                 <p>some rain</p>
                 <ul class="temp bold flex justify-cont-spb align-center">
-                    <li id="fahrenheit" class="red">24</li>
-                    <li id="fahrenheit" class="blue">18</li>
+                    <li id="temp1" class="red">24</li>
+                    <li id="temp2" class="blue">18</li>
                 </ul>
             </div>
             <div class="tomorrow gray-bg flex flex-column align-center justify-cont-spb margin-right">
@@ -49,8 +49,8 @@
                 <img class="img-size" src="assets/some_sun.png" alt="sun-pic">
                 <p>some sun</p>
                 <ul class="temp bold flex justify-cont-spb align-center">
-                    <li id="id3" class="red">27</li>
-                    <li id="id4" class="blue">19</li>
+                    <li id="temp3" class="red">27</li>
+                    <li id="temp4" class="blue">19</li>
                 </ul>
             </div>
             <div class="friday gray-bg flex flex-column align-center justify-cont-spb margin-right">
@@ -58,8 +58,8 @@
                 <img class="img-size" src="assets/some_clouds.png" alt="clouds-pic">
                 <p>some clouds</p>
                 <ul class="temp bold flex justify-cont-spb align-center">
-                    <li  id="id5" class="red">21</li>
-                    <li id="id6" class="blue">16</li>
+                    <li id="temp5" class="red">21</li>
+                    <li id="temp6" class="blue">16</li>
                 </ul>
             </div>
             <div class="saturday gray-bg flex flex-column align-center justify-cont-spb">
@@ -67,8 +67,8 @@
                 <img class="img-size" src="assets/some_sun.png" alt="sun-pic">
                 <p>some rain</p>
                 <ul class="temp bold flex justify-cont-spb align-center">
-                    <li id="id7" class="red">26</li>
-                    <li id="id8" class="blue">21</li>
+                    <li id="temp7" class="red">26</li>
+                    <li id="temp8" class="blue">21</li>
                 </ul>
             </div>
         </div>
